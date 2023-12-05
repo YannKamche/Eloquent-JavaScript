@@ -59,6 +59,6 @@ console.log(typeof null, typeof undefined);
 
 // Short circuiting of Logical Operations
 console.log(0 || "John") // John
-console.log(false && "1")
+console.log(false && "1 = 2") //false
 
 
