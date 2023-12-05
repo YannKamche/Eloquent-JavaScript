@@ -57,6 +57,7 @@ console.log(true === 1);
 console.log(typeof null === typeof undefined); //true
 console.log(typeof null, typeof undefined);
 
-console.log(0 && "Yann")
+console.log(0 || "John") // John
+console.log(false && "1")
 
 
