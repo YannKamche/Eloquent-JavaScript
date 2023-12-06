@@ -24,3 +24,11 @@ console.log(result);
 //FOR LOOPS: Allows you to repeat a certain block of code for a known amount of time
 for (let number = 0; number <= 12; number += 2) 
     console.log(number);
+
+//break: Can help you break out of a loop
+for (let current = 20; ; current++) {
+    if (current % 7 == 0) {
+        console.log(current);
+        break;
+    }
+}
