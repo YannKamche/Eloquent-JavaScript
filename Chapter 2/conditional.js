@@ -29,6 +29,12 @@ for (let number = 0; number <= 12; number += 2)
 for (let current = 20; ; current++) {
     if (current % 7 == 0) {
         console.log(current);
-        break;
+        break;     
     }
+}
+
+//continue: Similar to break but whenever it is encountered control jumps out of the body to the next iteration
+for (let i = 0; i <= 10; i++) {
+    if(i === 5) continue; //skips 5 and moves to the next iteration
+    console.log(i)
 }
