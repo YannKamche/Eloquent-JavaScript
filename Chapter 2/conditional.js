@@ -36,5 +36,5 @@ for (let current = 20; ; current++) {
 //continue: Similar to break but whenever it is encountered control jumps out of the body to the next iteration
 for (let i = 0; i <= 10; i++) {
     if(i === 5) continue; //skips 5 and moves to the next iteration
-    console.log(i)
-}
+    console.log(i);
+};
