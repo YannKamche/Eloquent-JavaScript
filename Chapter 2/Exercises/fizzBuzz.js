@@ -18,6 +18,5 @@ const checkFizzBuzz = (i) => {
             : (i % 5 === 0) ? "Buzz" : i;
 };
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) 
     console.log(checkFizzBuzz(i));
-}
