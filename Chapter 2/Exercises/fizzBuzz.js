@@ -12,11 +12,10 @@ labor market value just went up.)
  
  */
 
-const checkFizzBuzz = (i) => {
-    return (i % 3 === 0 && i % 5 == 0) ? "FizzBuzz"
+const checkFizzBuzz = (i) => 
+            (i % 3 === 0 && i % 5 == 0) ? "FizzBuzz"
             : (i % 3 === 0) ? "Fizz"
             : (i % 5 === 0) ? "Buzz" : i;
-};
 
 for (let i = 1; i <= 100; i++) 
     console.log(checkFizzBuzz(i));
